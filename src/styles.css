@@ -1,5 +1,5 @@
 /* https://freecodez.com */
-:root {
+/* :root {
   --border-radius: 2rem;
   --card-border-radius: 1rem;
   --btn-padding: 0.6rem 2rem;
@@ -13,6 +13,26 @@
   --color-success: hsl(120, 95%, 60%);
   --color-danger: hsl(0, 95%, 65%);
   --color-black: hsl(252, 30%, 10%);
+  --sticky-top-left: 5.4rem;
+  --sticky-top-right: -18rem;
+} */
+
+:root {
+  --border-radius: 2rem;
+  --card-border-radius: 1rem;
+  --btn-padding: 0.6rem 2rem;
+  --search-padding: 0.6rem 1rem;
+  --card-padding: 1rem;
+
+  --color-white: hsl(252, 30%, 98%);
+  --color-gray: hsl(252, 15%, 75%);
+  --color-light: hsl(252, 30%, 95%);
+  --color-dark: hsl(252, 20%, 25%);
+  --color-primary: hsl(252, 60%, 70%);
+  --color-success: hsl(140, 50%, 70%);
+  --color-danger: hsl(0, 60%, 75%);
+  --color-black: hsl(252, 20%, 15%);
+
   --sticky-top-left: 5.4rem;
   --sticky-top-right: -18rem;
 }
@@ -178,6 +198,7 @@ main .container .left .profle {
   cursor: pointer;
   transition: all 300ms ease;
   padding: 0 1rem;
+  color:rgba(0, 0, 0, 0.75);
 }
 
 .left .sidebar .menu-item:hover {
