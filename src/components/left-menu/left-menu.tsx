@@ -1,6 +1,7 @@
 import { JSX, useState } from "react";
 import { menuItem } from "../../consts";
 import MenuItems from "../menu-items/menu-items";
+import { Link } from "react-router-dom";
 
 export default function LeftMenu(): JSX.Element {
   const [activeMenuItem, setActiveMenuItem] = useState<string>('Home');
@@ -11,7 +12,7 @@ export default function LeftMenu(): JSX.Element {
 
   return (
     <div className="left">
-      <a className="profile">
+      <Link className="profile" to="">
         <div className="profile-pic">
           <img src="https://res.cloudinary.com/freecodez/image/upload/v1698067298/images/fy8azbqxhgdrbbijhipe.webp" />
         </div>
@@ -19,7 +20,7 @@ export default function LeftMenu(): JSX.Element {
           <h4>Freecodez</h4>
           <p className="text-muted">@freecodez</p>
         </div>
-      </a>
+      </Link>
       <div className="sidebar">
         {
           Object.entries(menuItem).map(([key, value]) => (

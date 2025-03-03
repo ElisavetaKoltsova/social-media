@@ -1,0 +1,72 @@
+:root {
+  --border-radius: 2rem;
+  --card-border-radius: 1rem;
+  --btn-padding: 0.6rem 2rem;
+  --card-padding: 2rem;
+
+  --color-white: hsl(252, 30%, 98%);
+  --color-gray: hsl(252, 15%, 75%);
+  --color-light: hsl(252, 30%, 95%);
+  --color-dark: hsl(252, 20%, 25%);
+  --color-primary: hsl(252, 60%, 70%);
+  --color-black: hsl(252, 20%, 15%);
+}
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: var(--color-light);
+}
+
+.auth-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  padding: var(--card-padding);
+  background: var(--color-white);
+  border-radius: var(--card-border-radius);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  color: var(--color-black);
+}
+
+.login-input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid var(--color-gray);
+  border-radius: var(--border-radius);
+  background: var(--color-light);
+  font-size: 16px;
+}
+
+/* button {
+  width: 100%;
+  padding: var(--btn-padding);
+  margin-top: 10px;
+  background: var(--color-primary);
+  border: none;
+  color: white;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 16px;
+} */
+
+button:hover {
+  background: var(--color-dark);
+}
+
+.toggle {
+  margin-top: 15px;
+  font-size: 14px;
+  cursor: pointer;
+  color: var(--color-primary);
+}

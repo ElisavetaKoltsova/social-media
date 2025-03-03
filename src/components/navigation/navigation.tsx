@@ -3,7 +3,7 @@ import { JSX } from "react";
 export default function Navigation(): JSX.Element {
   return (<nav>
     <div className="container">
-        <h2 className="logo">Social</h2>
+        <h2 className="logo">Arsoc</h2>
         <div className="search-bar">
             <i className="uil uil-search"></i>
             <input

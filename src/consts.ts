@@ -8,3 +8,8 @@ export const menuItem = {
   Palette: 'Theme',
   Cog: 'Settings'
 };
+
+export enum AppRoute {
+  Main = '/',
+  Login = 'login'
+}
